@@ -18,6 +18,19 @@
   <!-- cordova.js required for cordova apps (remove if not needed) -->
   <script src="cordova.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBa3v4Z01gPhdj8OH2nEXqrbQ2cDEWNnfs",
+      authDomain: "the-host-7e766.firebaseapp.com",
+      databaseURL: "https://the-host-7e766.firebaseio.com",
+      projectId: "the-host-7e766",
+      storageBucket: "the-host-7e766.appspot.com",
+      messagingSenderId: "816283609094"
+    };
+    firebase.initializeApp(config);
+  </script>
   <!-- un-comment this code to enable service worker
   <script>
     if ('serviceWorker' in navigator) {
