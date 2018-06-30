@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.auk.TheHost" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>TheHost</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <description>Host your everything (business, idea, property) and connect to the world.</description>
+    <author email="udaykiran4082@gmail.com" href="http://ionicframework.com/">AUK</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -81,4 +81,17 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-ionic-webview" spec="1.1.19" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="2.0.5" />
+    <plugin name="cordova-plugin-fingerprint-aio" spec="^1.3.8" />
+    <plugin name="cordova-plugin-mauron85-background-geolocation" spec="^2.3.5" />
+    <plugin name="cordova-plugin-firebase" spec="^1.0.5" />
+    <plugin name="phonegap-plugin-local-notification" spec="^1.0.1" />
+    <plugin name="cordova-sqlite-storage" spec="^2.3.2" />
+    <plugin name="ionic-plugin-deeplinks" spec="^1.0.15">
+        <variable name="URL_SCHEME" value="TheHost" />
+        <variable name="DEEPLINK_SCHEME" value="https" />
+        <variable name="DEEPLINK_HOST" value="thehost.com" />
+        <variable name="ANDROID_PATH_PREFIX" value="/" />
+    </plugin>
+    <plugin name="cordova-plugin-shortcuts-android" spec="^0.1.0" />
+    <plugin name="cordova-plugin-3dtouch" spec="^1.3.5" />
 </widget>
